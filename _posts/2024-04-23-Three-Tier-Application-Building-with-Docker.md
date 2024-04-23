@@ -41,7 +41,7 @@ Next, let’s build our image:
 ```docker build . -f Dockerfile.reactUI -t slackclone-fe:1
 ```
 
-![React Build](../images/buildfe.png)
+![React Build]({{ site.url }}/images/buildfe.png)
 
 
 ### Step 3: Containerizing Our Node.js Backend
