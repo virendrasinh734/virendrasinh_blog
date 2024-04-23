@@ -41,7 +41,7 @@ Next, let’s build our image:
 ```docker build . -f Dockerfile.reactUI -t slackclone-fe:1
 ```
 
-![React Build]('images/buildfe.png)
+![React Build](images/buildfe.png)
 
 
 ### Step 3: Containerizing Our Node.js Backend
@@ -63,7 +63,7 @@ CMD ["node", "server.js"]```
 Now, let’s build our image:
 ```docker build . -f Dockerfile.node -t slackclone-be:1
 ```
-![React Build]('images/buildbe.png)
+![React Build](images/buildbe.png)
 
 
 ### Step 4: Defining Services using a Compose file
@@ -98,14 +98,14 @@ services:
 volumes:
    slack_db:
 ```
-![compose]('images/compose.png')
+![compose](images/compose.png)
 
 
 React Frontend, Node Backend, Mongo Up and Running, 
 
 On visiting Port 3000 we can see: 
 
-![compose]('images/compose.png)
+![compose](images/compose.png)
 
 ### Conclusion
 With a single YAML file, we’ve demonstrated how Docker Compose helps you easily build and deploy your MERN stack in seconds. With just a few extra steps, you can apply this tutorial while building applications with even greater complexity. Happy developing.
